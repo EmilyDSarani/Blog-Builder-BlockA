@@ -35,6 +35,13 @@
         "ignoreComments": true
       }
     ],
+    //this fixed my 145 prettier issues of "delete 'cr'"
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ], 
     "quotes": [
       "error",
       "single",
